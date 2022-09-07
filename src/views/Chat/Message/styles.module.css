@@ -1,0 +1,31 @@
+.message {
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  grid-gap: 0 12px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+
+.date {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 17px;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  line-height: 16px;
+}

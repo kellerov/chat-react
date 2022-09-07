@@ -1,0 +1,46 @@
+.form {
+  display: flex;
+  grid-gap: 18px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.name {
+  font-size: 24px;
+  color: black;
+  font-weight: normal;
+  margin-bottom: 70px;
+}
+
+.input {
+  padding: 0 12px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  min-height: 42px;
+  width: 230px;
+}
+
+.button {
+  min-width: 120px;
+  height: 42px;
+  color: black;
+  background-color: #dce7f7;
+  border: 1px solid grey;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #cedffa;
+}
